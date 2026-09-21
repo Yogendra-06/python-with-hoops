@@ -6,7 +6,7 @@ class Employee:
     def total_salary(self):
         HRA = 0.2 * self.basic_salary  
         DA = 0.1 * self.basic_salary
-        total = self.basic_salary + HRA + DA
+        total = self.basic_salary+HRA+DA
         print("Total Salary:", total)  
 
 s = Employee()
